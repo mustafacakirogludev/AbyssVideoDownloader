@@ -7,5 +7,5 @@ data class Config(
     val resolution: String,
     var outputFile: File?,
     val header: Map<String, String>? = null,
-    val connections: Int = 6
+    val connections: Int = 20
 )
